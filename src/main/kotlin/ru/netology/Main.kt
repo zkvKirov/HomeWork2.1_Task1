@@ -3,9 +3,9 @@ package ru.netology
 fun main() {
 
     val result = calcDiscount(
-        card = "Mastercard",
-        totalPurchase = 130_000_00,
-        purchase = 50_000_00
+        card = "Visa",
+        totalPurchase = 30_000_00,
+        purchase = 2_000_00
     )
     println("Комиссия составит $result копеек")
 }
