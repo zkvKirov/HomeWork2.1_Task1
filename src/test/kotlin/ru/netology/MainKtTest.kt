@@ -59,7 +59,7 @@ class MainKtTest {
         val card = "Vk Pay"
         val totalPurchase = 0
         val purchase = 5_000_00
-        val expectedCommission = 0
+        val expectedCommission = 10
 
         val actualCommission = calcDiscount(card, totalPurchase, purchase)
 
@@ -69,7 +69,7 @@ class MainKtTest {
     @Test
     fun `calcDiscount default`() {
         val purchase = 2_000_00
-        val expectedCommission = 0
+        val expectedCommission = 10
 
         val actualCommission = calcDiscount(purchase = purchase)
 
